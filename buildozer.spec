@@ -5,11 +5,11 @@ package.name = primelab
 package.domain = org.primelab
 
 source.dir = .
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,png,jpg,jpeg,kv,atlas,ttf
 
-version = 1.0
+version = 1.2
 
-requirements=python3==3.13.11,hostpython3==3.13.11,kivy
+requirements = python3==3.13.11,hostpython3==3.13.11,kivy
 
 android.api = 35
 android.minapi = 23
@@ -21,3 +21,8 @@ p4a.commit = d2ee8c5
 
 orientation = portrait
 fullscreen = 0
+
+[buildozer]
+
+log_level = 2
+warn_on_root = 1
