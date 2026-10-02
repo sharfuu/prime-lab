@@ -9,7 +9,7 @@ source.include_exts = py,png,jpg,kv,atlas
 
 version = 1.0
 
-requirements = python3==3.13.11,kivy
+requirements=python3==3.13.11,hostpython3==3.13.11,kivy
 
 android.api = 35
 android.minapi = 23
